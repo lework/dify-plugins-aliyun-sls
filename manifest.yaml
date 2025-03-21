@@ -1,17 +1,17 @@
 version: 0.0.1
 type: plugin
 author: lework
-name: aliyun-sls
+name: Aliyun-SLS
 label:
-  en_US: aliyun-sls
-  ja_JP: aliyun-sls
-  zh_Hans: aliyun-sls
-  pt_BR: aliyun-sls
+  en_US: Aliyun-SLS
+  ja_JP: 阿里云SLS
+  zh_Hans: 阿里云SLS
+  pt_BR: Aliyun-SLS
 description:
-  en_US: 查询阿里云SLS日志
-  ja_JP: 查询阿里云SLS日志
+  en_US: Query Aliyun SLS logs
+  ja_JP: クエリ阿里云SLSログ
   zh_Hans: 查询阿里云SLS日志
-  pt_BR: 查询阿里云SLS日志
+  pt_BR: Query Aliyun SLS logs
 icon: icon.svg
 resource:
   memory: 268435456

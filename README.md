@@ -1,37 +1,38 @@
-# 阿里云日志服务(SLS)插件
-**作者:** lework
-**版本:** 0.0.1
-**类型:** tool
+# Alibaba Cloud Log Service (SLS) plugin
+
+**Author:** lework
+**Version:** 0.0.1
+**Type:** tool
 **REPO:** [dify-plugins-aliyun-sls](https://github.com/lework/dify-plugins-aliyun-sls)
 
-这是一个用于查询阿里云日志服务(SLS)中日志数据的 Dify 插件。
+This is a Dify plugin for querying log data in Alibaba Cloud Log Service (SLS).
 
-## 功能
+## Function
 
-- 查询阿里云 SLS 日志服务中的日志数据
-- 支持指定查询语句、日志库、时间范围等参数
-- 支持自定义查询结果数量限制
+- Query log data in Alibaba Cloud SLS Log Service
+- Supports specifying query statements, log libraries, time ranges and other parameters
+- Supports custom query result quantity limits
 
-## 配置
+## Configuration
 
-使用此插件需要提供以下阿里云凭证信息：
+To use this plugin, you need to provide the following Alibaba Cloud credentials:
 
-- Endpoint: 阿里云 SLS 服务的 Endpoint，例如：cn-hangzhou.log.aliyuncs.com
-- Access Key ID: 阿里云账号的 Access Key ID
-- Access Key Secret: 阿里云账号的 Access Key Secret
-- Project: 阿里云 SLS 的项目名称
-- Logstore (可选): 阿里云 SLS 的日志库名称，也可在查询时指定
+- Endpoint: Endpoint of Alibaba Cloud SLS service, for example: cn-hangzhou.log.aliyuncs.com
+- Access Key ID: Access Key ID of Alibaba Cloud account
+- Access Key Secret: Access Key Secret of Alibaba Cloud account
+- Project: Project name of Alibaba Cloud SLS
+- Logstore (optional): Log library name of Alibaba Cloud SLS, which can also be specified when querying
 
-## 使用示例
-
-```
-查询最近15分钟内包含"error"的日志
-```
+## Usage examples
 
 ```
-查询logstore为"nginx-access"中最近1小时的所有日志，限制返回50条
+Query logs containing "error" in the last 15 minutes
 ```
 
-## 查询语法
+```
+Query all logs in the last 1 hour in logstore "nginx-access", and limit the return to 50
+```
 
-支持阿里云 SLS 的查询语法，详情请参考[阿里云 SLS 查询语法文档](https://help.aliyun.com/document_detail/29060.html)。
+## Query syntax
+
+Supports query syntax of Alibaba Cloud SLS, for details, please refer to [Alibaba Cloud SLS Query syntax documentation](https://help.aliyun.com/document_detail/29060.html).
