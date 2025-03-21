@@ -1,7 +1,7 @@
 version: 0.0.1
 type: plugin
 author: lework
-name: Aliyun-SLS
+name: aliyun-sls
 label:
   en_US: Aliyun-SLS
   ja_JP: 阿里云SLS
