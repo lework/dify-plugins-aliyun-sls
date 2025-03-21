@@ -3,7 +3,7 @@
 **Author:** lework
 **Version:** 0.0.1
 **Type:** tool
-**REPO:** [dify-plugins-aliyun-sls](https://github.com/lework/dify-plugins-aliyun-sls)
+**REPO:** [dify-plugin-aliyun-sls](https://github.com/lework/dify-plugin-aliyun-sls)
 
 This is a Dify plugin for querying log data in Alibaba Cloud Log Service (SLS).
 
